@@ -1,0 +1,83 @@
+body{
+    padding-left: 180px;
+    padding-right: 180px;
+    background-image: url(./assest/vertical-shot-golden-sunset-sky-pacific-ocean.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 130px;
+    padding-left: 20px;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    margin: auto 20px auto 20px;
+}
+a{
+    margin: auto 10px auto 10px;  
+}
+video{
+    display: flex;
+    margin:  auto;
+    padding: auto;
+    height: 400px;
+    padding-top: 50px;
+    
+}
+.info{
+    display: flex;
+    justify-content: space-around; 
+}
+.text {
+    width: 350px;
+    text-align: left;
+}
+.image{
+    border-radius: 50%;
+    
+}
+.footer{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+.links{
+    
+}
+
+
+input{
+    width: 25%;
+    height: 40px;
+    padding: auto auto;
+    border-radius: 20px;
+    
+    margin-bottom: 20px;
+}
+label{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 18px;
+}
+textarea{
+    width: 25%;
+    height: auto;
+    border-radius: 20px; 
+    margin-bottom: 40px; 
+}
+button{
+    width: 25%;
+    height: 40px;
+    padding: auto auto;
+    border-radius: 20px;
+    background-color:lightblue;
+}
